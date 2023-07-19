@@ -1,0 +1,71 @@
+::selection {
+	background-color: pink;
+	color: red;
+}
+
+body {
+	background-color: #212529;
+}
+
+.enter {
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+h1 {
+	font-weight: 400;
+	font-family: Helvetica;
+}
+
+li {
+	font-size: 1.5rem;
+	font-family: "Times New Roman";
+}
+
+ul {
+	overflow-y: scroll;
+	height: 450px;
+	border: 1px solid white;
+}
+
+footer {
+	font-family: Helvetica;
+	font-size: 1.5rem;
+	position: fixed;
+	bottom: 0rem;
+	width: 96%;
+	padding: 0.4rem 0;
+	border-top: 3px solid white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media screen and (max-width: 480px) {
+	ul {
+		height: 350px;
+	}
+
+	footer {
+		padding: 0.2rem;
+		font-size: 1.5rem;
+		width: 93%;
+	}
+}
